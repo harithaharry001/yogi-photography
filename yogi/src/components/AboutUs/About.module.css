@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap');
+
+body, html {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 180%;
+  color: #666;
+  text-align: center; 
+  
+} 
+.heading {
+  color: rgb(3, 3, 3);
+  font-size: 150%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 10px #000;
+  text-align: center;
+
+}
+.twocol {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 550px;
+  padding: 10px 20px;
+  text-align: left;
+  border:  15px groove rgb(82, 140, 60);
+  overflow: hidden;
+}
+.H2{
+  font-family: 'Dancing Script', cursive;
+  font-size:48px;
+}
+.Para{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+section {
+  overflow: auto;
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.sectionLight{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.sectionDark{
+  background-color:#282e34;
+  color:#ddd;
+}
+.wrapper{
+
+width:400px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+.wrapper.Para{
+  font-weight:lighter;
+  font-weight: 22px;
+
+}
+
+@media only screen and (min-width: 320px) {
+  .image{
+    width: 420px;
+  }
+  .section{
+    width: 400px;
+    
+  }
+ .H2{
+   font-size:24px;
+   width: auto;
+   text-align: center;
+ }
+ .Para{
+   font-size:18px;
+   text-align: left;
+ }
+ .wrapper{
+  width:260px;
+ }
+ 
+ .twocol{
+   width: 280px;
+   overflow: auto;
+ }
+ .twocol.H2, .twocol.Para{
+   font-size:20px;
+   
+ }
+ 
+ 
+ }
+
+
+
+
+ @media only screen and (min-width: 375px) {
+  .image{
+    width: 480px;
+  }
+  .section{
+    width: 480px;
+    
+  }
+ .H2{
+   font-size:26px;
+   width: auto;
+   text-align: center;
+ }
+ .Para{
+   font-size:18px;
+   text-align: left;
+ }
+ .wrapper{
+  width:260px;
+ }
+ 
+ .twocol{
+   width: 280px;
+   overflow: auto;
+ }
+ .twocol.H2, .twocol.Para{
+   font-size:20px;
+   
+ }
+ 
+ 
+ }
+
+@media only screen and (min-width: 480px) {
+ .image{
+   width: 500px;
+ }
+ .section{
+   width: 500px;
+ }
+.H2{
+  font-size:28px;
+  width: auto;
+  text-align: center;
+}
+.Para{
+  font-size:20px;
+  text-align: left;
+}
+.wrapper{
+  width:280px;
+ }
+.twocol{
+  width: 400px;
+  overflow: auto;
+}
+.twocol.H2, .twocol.Para{
+  font-size:20px;
+  
+}
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .image{
+    width: 700px;
+  }
+  .section{
+    width: 700px;
+  }
+ .H2{
+   font-size:32px;
+   width: auto;
+ }
+ .Para{
+   font-size:22px;
+ }
+ .wrapper.Para, .wrapper.H2{
+   margin-left:10px;
+   margin-right:auto;
+   width:400px;
+   
+ }
+ .twocol{
+   width: 800px;
+   overflow: auto;
+ }
+ .twocol.H2, .twocol.Para{
+   font-size:25px;
+   
+ }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .image{
+    width: 1000px;
+  }
+  .section{
+    width:1000px;
+  }
+ .H2{
+   font-size:38px;
+   width: auto;
+   text-align: center;
+ }
+ .Para{
+   font-size:20px;
+   text-align: left;
+ }
+ .wrapper{
+   width: 300px;
+ }
+ .twocol{
+   width: 600px;
+   overflow: auto;
+ }
+ .twocol.H2, .twocol.Para{
+   font-size:20px;
+   
+ }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+  .image{
+    width: 1260px;
+  }
+  .section{
+    width:1260px;
+  }
+ .H2{
+   font-size:48px;
+   width: auto;
+ }
+ .Para{
+   font-size:22px;
+ }
+ .wrapper{
+   width: 400px;
+ }
+   
+ 
+ .twocol{
+   width: 1100px;
+   overflow: auto;
+ }
+ .twocol.H2, .twocol.Para{
+   font-size:20px;
+   
+ }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .image{
+    width: 1900px;
+  }
+  .section{
+    width:1900px;
+  }
+ .H2{
+   font-size:50px;
+   width: auto;
+ }
+ .Para{
+   font-size:21px;
+ }
+ .wrapper{
+   width: 500px;
+ }
+ .twocol{
+   width: 830px;
+   overflow: auto;
+ }
+ .twocol.H2, .twocol.Para{
+   font-size:20px;
+   
+ }
+}
